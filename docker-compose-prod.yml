@@ -1,0 +1,7 @@
+version: '3'
+services:
+  nginx-web:
+    image: salsabeel/nginxProject:latest
+    ports:
+      - "80:80"
+    restart: always    
